@@ -107,10 +107,16 @@ public class Bot extends TelegramLongPollingBot {
                 case "Аня":
                     sendMsg(message,"А я знаю что ты Аня, меня только что научили реагировать на твое имя!");
                     break;
-                case "REPACRYL":
+                case "REPACRYL" :
                    sendDocUploadingAFile(message, repacryl, "Получите распишитесь");
                    break;
+                case "репакрил" :
+                    sendDocUploadingAFile(message, repacryl, "Получите распишитесь");
+                    break;
                 case"Fume S":
+                    sendDocUploadingAFile(message,fumeS,"Получите распишитесь");
+                    break;
+                case"фюм":
                     sendDocUploadingAFile(message,fumeS,"Получите распишитесь");
                     break;
 
